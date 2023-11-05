@@ -1,0 +1,46 @@
+body {
+  max-width: 100%;
+  display: block;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.links a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+.links a {
+  margin: 20px;
+  border: 1px solid rgb(105, 105, 248);
+  background-color: rgb(129, 129, 224);
+  border-radius: 4px;
+  color: antiquewhite;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.method {
+  display: flex;
+  margin: 20px;
+}
+li {
+  text-align: left;
+}
+.col-6 {
+  padding: 10px;
+  background-color: rgb(210, 229, 241);
+  border-radius: 10px;
+}
+.img-fluid {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
