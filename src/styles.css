@@ -2,6 +2,8 @@ body {
   max-width: 100%;
   display: block;
   text-align: center;
+  font-family: sans-serif;
+  background-color: antiquewhite;
 }
 h1 {
   font-size: 40px;
@@ -9,7 +11,7 @@ h1 {
 .links {
   display: flex;
   margin-top: 40px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .links a:hover {
   text-decoration: underline;
@@ -35,11 +37,10 @@ li {
 }
 .col-6 {
   padding: 10px;
-  background-color: rgb(210, 229, 241);
+  background-color: #f8f5f1;
   border-radius: 10px;
 }
 .img-fluid {
-  margin: 10px;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   width: 400px;
